@@ -23,7 +23,11 @@ Neste projeto, foram criadas duas telas:
 -   Campos de email e senha
 -   Botão de acesso
 
-### 🔹 Tela de Boas-Vindas estilo Airbnb
+### 🔹 Tela de Boas-Vindas estilo Airbnb  
+![aibnb](https://github.com/user-attachments/assets/df2d9d98-9c9d-4059-8796-2b6574242a13)
+
+
+    
 
 -   Gradiente com LinearGradient
 -   Logotipo ajustado
