@@ -1,114 +1,113 @@
-🎯 Objetivo da Aventura
+# 📱 Aventura 1 --- Clone de Telas
+
+## 🎯 Objetivo da Aventura
 
 A proposta da atividade é:
 
-Reproduzir duas telas reais de um aplicativo conhecido.
-
-Separar corretamente os estilos em arquivos próprios.
-
-Utilizar componentes básicos do React Native.
-
-Entregar o projeto organizado em um repositório Git.
-
-Incluir imagens do app escolhido para referência visual.
+-   Reproduzir duas telas reais de um aplicativo conhecido.
+-   Separar corretamente os estilos em arquivos próprios.
+-   Utilizar componentes básicos do React Native.
+-   Entregar o projeto organizado em um repositório Git.
+-   Incluir imagens do app escolhido para referência visual.
 
 Neste projeto, foram criadas duas telas:
 
-Tela de Login estilo CinePetro
+### 🔹 Tela de Login estilo CinePetro
 
-Com background, logo, campos de email/senha e botão de acesso.
+-   Background com imagem
+-   Logo centralizada
+-   Campos de email e senha
+-   Botão de acesso
 
-Tela de Boas-Vindas estilo Airbnb
+### 🔹 Tela de Boas-Vindas estilo Airbnb
 
-Com gradiente, logotipo, botão de login social e textos informativos.
+-   Gradiente com LinearGradient
+-   Logotipo ajustado
+-   Botão de login social
+-   Textos informativos
 
-🛠️ Tecnologias Utilizadas
+------------------------------------------------------------------------
 
-React Native
+## 🛠 Tecnologias Utilizadas
 
-TypeScript
+-   React Native\
+-   TypeScript\
+-   Expo\
+-   Expo Linear Gradient\
+-   Componentes básicos (View, Text, TextInput, Image, TouchableOpacity)
 
-Expo
+------------------------------------------------------------------------
 
-Expo Linear Gradient
+## 📂 Estrutura do Projeto
 
-Componentes básicos (View, Text, TextInput, Image, TouchableOpacity)
+    /ProjetoAventura1
+     ├── LoginScreen.tsx
+     ├── App.tsx
+     ├── styles.ts
+     ├── styles2.ts
+     ├── /assets
+     │    ├── bg.png
+     │    ├── cinepetro.png
+     │    ├── icon.png
+     │    ├── facebook.png
+     └── README.md
 
-📂 Estrutura do Projeto
-/ProjetoAventura1
- ├── LoginScreen.tsx
- ├── App.tsx
- ├── styles.ts
- ├── styles2.ts
- ├── /assets
- │    ├── bg.png
- │    ├── cinepetro.png
- │    ├── icon.png
- │    ├── facebook.png
- │
- └── README.md
+------------------------------------------------------------------------
 
-📸 Telas Implementadas
-🔹 Tela 1 — Login (CinePetro)
+## 📸 Telas Implementadas
 
-Fundo com ImageBackground
+### 🔹 Tela 1 --- Login (CinePetro)
 
-Logo centralizada
+-   Fundo com ImageBackground\
+-   Logo centralizada\
+-   Inputs de email e senha\
+-   Botão "Entrar"\
+-   Overlay com opacidade
 
-Inputs de email e senha
+### 🔹 Tela 2 --- Welcome (Airbnb)
 
-Botão estilizado "Entrar"
+-   Uso do LinearGradient\
+-   Logo ajustado\
+-   Login com Facebook\
+-   Botão "Create Account"\
+-   Texto de termos
 
-Overlay com opacidade para melhorar leitura
+------------------------------------------------------------------------
 
-🔹 Tela 2 — Welcome (Airbnb)
+## 🚀 Como Executar
 
-Utilização de LinearGradient
+*Instale as dependências*
 
-Logo ajustado
+    npm install
 
-Botão de login com Facebook
+*Inicie o projeto*
 
-Botão "Create Account"
+    npx expo start
 
-Texto de termos do app
+Execute no: - Expo Go (Android/iOS)\
+- Emulador Android\
+- Simulador iOS
 
-🚀 Como Executar
+------------------------------------------------------------------------
 
-Instale as dependências
+## 📚 Aprendizados da Aventura
 
-npm install
+Durante a atividade, foram desenvolvidos:
+
+-   Organização de código com componentes reutilizáveis\
+-   Separação de estilos em arquivos isolados\
+-   Importação e uso de imagens locais\
+-   Gradientes e backgrounds no app\
+-   Entendimento da estrutura base de um projeto React Native
+
+------------------------------------------------------------------------
 
 
-Inicie o projeto
 
-npx expo start
+## 👨‍🎓 Autor
 
+*Alisson Lima de Souza*  
+[LinkedIn](https://www.linkedin.com/in/alisson-lima-de-souza-0512233a/)  
 
-Execute no:
-
-Expo Go (Android/iOS)
-
-Emulador Android
-
-Simulador iOS
-
-📚 Aprendizados da Aventura
-
-Durante o desenvolvimento desta atividade, foram praticados:
-
-Organização de código com componentes reutilizáveis.
-
-Separação de estilos em arquivos isolados (styles.ts, styles2.ts).
-
-Importação e utilização de imagens locais.
-
-Aplicação de gradientes e backgrounds.
-
-Compreensão da estrutura básica de um app React Native.
-
-👨‍🎓 Autor
-
-Aluno: Alisson Lima de Souza
-Disciplina: React Native
-*Aventura 1 — Clone de Telas
+*Disciplina:* React Native  
+*Aventura 1 — Clone de Telas*
