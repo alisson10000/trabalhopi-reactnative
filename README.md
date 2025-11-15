@@ -26,7 +26,7 @@ Neste projeto, foram criadas duas telas:
 ### 🔹 Tela de Boas-Vindas estilo Airbnb  
 ![aibnb](https://github.com/user-attachments/assets/df2d9d98-9c9d-4059-8796-2b6574242a13)
 
-
+- Obs.: A tag `LinearGradient` não aceita trabalhar com a chamada de estilo externo.
     
 
 -   Gradiente com LinearGradient

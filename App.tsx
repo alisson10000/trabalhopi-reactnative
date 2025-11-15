@@ -1,45 +1,50 @@
 import React from "react";
-import { View, Text, TextInput, TouchableOpacity, ImageBackground, Image } from "react-native";
-import { styles } from "./styles2";
+import { View, Text, StyleSheet, TouchableOpacity, Image, TextInput } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
+import { styles } from "./styles";
 
-export default function LoginScreen() {
+
+export default function App() {
   return (
-    <ImageBackground
-      source={require("./assets/bg.png")}
-      style={styles.background}
-      blurRadius={2}
+    <LinearGradient
+      colors={["#006e7f", "#00a3a3", "#00c6c7"]}
+      style={styles.container}
     >
-      <View style={styles.overlay}>
-
+      {/* Área principal */}
+      <View style={styles.content}>
+        
         {/* Logo */}
         <Image
-          source={require("./assets/cinepetro.png")}
+          source={require("./assets/icon.png")}
           style={styles.logo}
         />
 
-        <Text style={styles.title}>Entrar</Text>
+        {/* Welcome */}
+        <Text style={styles.title}>Welcome to Airbnb.</Text>
 
-        {/* Email */}
-        <TextInput
-          style={styles.input}
-          placeholder="Email"
-          placeholderTextColor="#ccc"
-        />
-
-        {/* Senha */}
-        <TextInput
-          style={styles.input}
-          placeholder="Senha"
-          placeholderTextColor="#ccc"
-          secureTextEntry
-        />
-
-        {/* Botão */}
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Entrar</Text>
+        {/* Button Facebook */}
+        <TouchableOpacity style={styles.facebookButton}>
+          <Image 
+            source={require("./assets/facebook.png")}
+            style={styles.fbIcon}
+          />
+          <Text style={styles.fbText}>Continue with Facebook</Text>
         </TouchableOpacity>
 
+        {/* Create Account */}
+        <TouchableOpacity style={styles.createButton}>
+          <Text style={styles.createText}>Create Account</Text>
+        </TouchableOpacity>
+
+        <Text style={styles.moreOptions}>More options</Text>
+
+        <Text style={styles.terms}>
+          By tapping Continue, Create Account or More options, I agree to Airbnb’s 
+          Terms of Service, Payments Terms of Service, Privacy Policy, and 
+          Nondiscrimination Policy.
+        </Text>
       </View>
-    </ImageBackground>
+    </LinearGradient>
   );
 }
+
