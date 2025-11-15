@@ -14,6 +14,10 @@ Neste projeto, foram criadas duas telas:
 
 ### 🔹 Tela de Login estilo CinePetro
 
+![cine petro](https://github.com/user-attachments/assets/8e41add1-597e-41bc-aec6-b85d898d722d)
+
+
+
 -   Background com imagem
 -   Logo centralizada
 -   Campos de email e senha
